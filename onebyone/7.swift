@@ -1,6 +1,6 @@
 class Solution {
     func reverse(_ x: Int) -> Int {
-        let custom =  2147483648
+        let CUSTOM =  2147483648
         var temp = x;
         temp = abs(temp)
         var res = 0;
